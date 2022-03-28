@@ -9,6 +9,8 @@ type Container interface {
 type LinkedListContainer interface {
 	PushFront(val any)
 	PushBack(val any)
+	Back() *Node
+	Front() *Node
 	Reverse()
 	Container
 }
