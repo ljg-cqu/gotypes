@@ -6,7 +6,7 @@ type Container interface {
 	Clear()
 }
 
-type LinkedListContainer interface {
+type LinkedList interface {
 	PushFront(val any)
 	PushBack(val any)
 	Back() any
